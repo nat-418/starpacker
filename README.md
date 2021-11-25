@@ -10,6 +10,9 @@ as well as a `lib` directory with various runtimes and tools needed
 to build Starpacks. It also contains a `dist` folder containing Starpacks
 of the Starpacker application for x86_64 and ix86 Linux.
 
+For cases where all you want to do is bundle together a single script file,
+use `starscript.tcl`.
+
 ## Supported Platforms
 
 Starpacker has been tested on Linux xand bundles Tcl 8.6 for the
