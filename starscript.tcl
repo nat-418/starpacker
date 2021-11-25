@@ -11,7 +11,7 @@ proc starscript target {
     file mkdir bin
 
     foreach runtime $runtimes {
-        set os_arch [file tail $runtime]
+        set os_arch [file root [file tail $runtime]]
 
         exec $tclkit $sdx qwrap $target -runtime $runtime
 
