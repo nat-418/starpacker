@@ -8,7 +8,23 @@ systems and architecture runtimes.
 This repository contains a simple Tcl script called `starpacker.tcl`,
 as well as a `lib` directory with various runtimes and tools needed
 to build Starpacks. It also contains a `dist` folder containing Starpacks
-of the Starpacker application for 64 and 32-bit Linux.
+of the Starpacker application for x86_64 and ix86 Linux.
+
+## Supported Platforms
+
+Starpacker has been tested on Linux xand bundles Tcl 8.6 for the
+following platforms:
+
+* Linux x86_64
+* Linux ix86
+* Linux ARM
+* macOS ix86 + x86_64
+* macOS PowerPC + PowerPC64
+* Windows ix86
+* Windows x86_64
+
+More runtimes (aka tclkits) [are avaialble] for other platforms including
+Solaris SPARC, Android ARM, FreeBSD x86_64, etc. 
 
 ## Usage
 
@@ -16,9 +32,11 @@ Starpacker has a few commands to help build starpacks:
 
 * `$ ./starpacker.tcl demo` creates an example project.
 * `$ ./starpacker.tcl init $name` initializes an empty project `$name`.
-* `$ ./starpacker.tcl build $name` makes Starpackes for a proejct `$name`.
+* `$ ./starpacker.tcl build $name` packages a project `$name`.
 * `$ ./starpacker.tcl clean` deletes auto-generated files.
 
 ## License
 
 Starpacker is free software available under the 0BSD license.
+
+[are available]: http://kitcreator.rkeene.org/kitcreator
