@@ -23,8 +23,7 @@ following platforms:
 * Windows ix86
 * Windows x86_64
 
-More runtimes (aka tclkits) [are avaialble](http://kitcreator.rkeene.org/kitcreator) for other platforms including
-Solaris SPARC, Android ARM, FreeBSD x86_64, etc. 
+More runtimes (aka tclkits) [are avaialble](http://kitcreator.rkeene.org/kitcreator) for other platforms including Android, FreeBSD, etc. 
 
 ## Usage
 
